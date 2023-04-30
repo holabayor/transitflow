@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200;300;400;500;600;700&family=Rubik:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .pageWidth {
+    @apply xl:max-w-[1280px] w-full px-2;
+  }
+  .flexStart {
+    @apply flex justify-center items-start;
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .yellow__gradient {
+    @apply bg-gradient-to-r from-[#ffb6c9] via-[#ffda56] to-[#ffd7a6];
+  }
+}
+
+:root {
+  font-family: 'Krub', sans-serif;
+}
+
+.menu-bg {
+  background: rgba(9, 18, 66, 0.25);
+  width: 100%;
+  height: 100%;
+}
+
+.yellow-btn {
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+.blue-btn {
+  background: #1f2a69;
+  color: #fff;
+}
+
+.blue-btn::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  height: 50px;
+  width: 40px;
+  background: #fff;
+}
