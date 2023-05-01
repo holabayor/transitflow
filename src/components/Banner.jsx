@@ -15,7 +15,7 @@ const Banner = () => (
           <span className="px-4 py-2 bg-[#041c37] bg-opacity-50 text-white text-[14px]">
             Logistics & Supply Chain Solution
           </span>
-          <h1 className="font-bold font-rubik text-white text-[32px] md:text-[40px] lg:text-[60px] leading-tight sm:leading-tight pt-2">
+          <h1 className="font-bold font-rubik text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[60px] leading-tight sm:leading-tight pt-2">
             Your Gateway&nbsp;
             <br className="hidden sm:block" />
             to any Destination&nbsp;
@@ -27,8 +27,8 @@ const Banner = () => (
             in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus
             finibus, enim diam interdum nulla, sed laoreet risus lectus.
           </p>
-          <Button text={'Explore More'} color={'blue'} />
         </div>
+        <Button text={'Explore More'} color={'yellow'} />
       </div>
     </div>
   </>
