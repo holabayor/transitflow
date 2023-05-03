@@ -1,12 +1,19 @@
 import { serviceLinks } from '../constants';
 import Heading from './Heading';
 
-const Services = () => (
+const About = () => (
   <div className="max-w-[800px] flex flex-col md:flex-row gap-x-8 p-4 md:p-8">
     <Heading
-      subText={'What We Do'}
-      headerText={'Safe & Reliable Cargo Solutions'}
+      subText={'Why Us'}
+      headerText={'We provide full range global logistics solution'}
     />
+    <p className="text-dimGray text-[10px] md:text-[12px]">
+      Leverage agile frameworks to provide a robust synopsis for strategy foster
+      collaborative thinking to further the overall value proposition.
+      <br />
+      Organically grow the holistic world view of disruptive innovation via
+      workplace diversity and empowerment.
+    </p>
     <div className="flex flex-col sm:flex-row flex-wrap gap-x-4 ">
       {serviceLinks.map((link) => (
         <div
@@ -32,4 +39,4 @@ const Services = () => (
   </div>
 );
 
-export default Services;
+export default About;
