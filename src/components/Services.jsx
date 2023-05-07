@@ -2,7 +2,7 @@ import { serviceLinks } from '../constants';
 import Heading from './Heading';
 
 const Services = () => (
-  <div className="max-w-[800px] flex flex-col md:flex-row gap-x-8 p-4 md:p-8">
+  <section className="max-w-[800px] flex flex-col md:flex-row gap-x-4 p-4 md:p-8">
     <Heading
       subText={'What We Do'}
       headerText={'Safe & Reliable Cargo Solutions'}
@@ -29,7 +29,7 @@ const Services = () => (
         </div>
       ))}
     </div>
-  </div>
+  </section>
 );
 
 export default Services;

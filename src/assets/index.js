@@ -11,6 +11,10 @@ import service1 from './service1.png';
 import service2 from './service2.png';
 import service3 from './service3.png';
 import service4 from './service4.png';
+import delivery from './delivery.png';
+import optimized from './optimized.png';
+import plane from './plane.png';
+import person from './person.jpg';
 
 export {
   facebook,
@@ -26,4 +30,8 @@ export {
   service2,
   service3,
   service4,
+  delivery,
+  optimized,
+  plane,
+  person,
 };

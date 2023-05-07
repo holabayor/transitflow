@@ -10,6 +10,8 @@ import {
   service2,
   service3,
   service4,
+  delivery,
+  optimized,
 } from '../assets';
 
 export const headerInfo = [
@@ -103,5 +105,16 @@ export const serviceLinks = [
     header: 'Local Shipping Services',
     text: 'Following the quality of our service thus having gained trust of our many clients.',
     icon: service4,
+  },
+];
+
+export const aboutLinks = [
+  {
+    name: 'Delivery on Time',
+    img: delivery,
+  },
+  {
+    name: 'Optimized Travel Cost',
+    img: optimized,
   },
 ];
